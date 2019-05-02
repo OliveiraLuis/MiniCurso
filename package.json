@@ -1,0 +1,31 @@
+{
+  "name": "minicurso",
+  "version": "1.0.0",
+  "description": "Uma aplicação real-time",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliveiraLuis/MiniCurso.git"
+  },
+  "keywords": [
+    "real-time",
+    "socket.io",
+    "express",
+    "node.js"
+  ],
+  "author": "Luis Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OliveiraLuis/MiniCurso/issues"
+  },
+  "homepage": "https://github.com/OliveiraLuis/MiniCurso#readme"
+}
