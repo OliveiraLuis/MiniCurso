@@ -1,38 +1,33 @@
-
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chatezinho maroto</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+  </head>
+  <body>
+    <div class="nickname_container" id="nick">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Simple chat</title>
-  <link rel="stylesheet" type="text/css" href="css.css">
-</head>
+      <span>Digite seu nome:</span>
+      <form id="submit">
+        <input type="text" id="nickname" autofocus>
+      </form>
 
-<body>
-  <div class="nickname_container" id="nick">
-
-    <span>Digite seu nome:</span>
-    <form id="submit">
-      <input type="text" id="nickname" />
-    </form>
-
-  </div>
-
-  <div id="chat" hidden>
-
-    <div class="menu">
-      <div class="name" id="name">Alex</div>
-      <div class="last" id="time">18:09</div>
     </div>
 
-    <ol class="chat">
+    <div id="chat" hidden>
 
-    </ol>
-    <div id='bottom'></div>
-    <input class="textarea" type="text" placeholder="Type here!" id="textarea" />
-  </div>
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
-  <script src="js.js"></script>
-</body>
+      <div class="menu">
+        <div class="name" id="name">Luis</div>
+        <div class="last" id="time">00:00</div>
+      </div>
 
+      <ol class="chat">
+
+      </ol>
+      <div id='bottom'></div>
+      <input class="textarea" type="text" placeholder="Digite sua mensagem :)" id="textarea">
+    </div>
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="js.js"></script>
+  </body>
 </html>
