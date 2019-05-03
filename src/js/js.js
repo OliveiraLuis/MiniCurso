@@ -1,6 +1,6 @@
 (() => {
   // socket que "ouve" o servidor
-  var socket = io.connect("http://localhost:3000");
+  var socket = io.connect(location.href);
   var ready = false;
 
   // Ao submeter o fomulário
